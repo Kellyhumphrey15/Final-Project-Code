@@ -1,0 +1,36 @@
+body {
+    background-image: url(/Images/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.questions {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    margin: 5%;
+    justify-content: space-around;
+}
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 64px;
+}
+.slanted-text {
+        transform: skew(-15deg); 
+        display: inline-block;
+}
+.slanted-container-left {
+        transform: rotate(-15deg); 
+        display: flex; 
+        flex-direction: row;
+}
+.slanted-container-right {
+    transform: rotate(15deg); 
+    display: flex; 
+    flex-direction: row;
+}
