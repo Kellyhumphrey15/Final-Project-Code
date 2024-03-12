@@ -1,5 +1,5 @@
 body {
-
+    background: linear-gradient(to top, #f9cd80, #b3a697, #e9a796)
 }
 
 .questions {
@@ -34,4 +34,7 @@ h2 {
     transform: rotate(15deg); 
     display: flex; 
     flex-direction: row;
+}
+.buttons {
+    float: inline-start;
 }
