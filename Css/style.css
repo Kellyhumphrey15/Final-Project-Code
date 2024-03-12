@@ -1,13 +1,11 @@
 body {
-    background-image: url(/Images/Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
 }
 
 .questions {
     display: flex;
     flex-direction: row;
-    padding: 1%;
+    padding: 3%;
     margin: 5%;
     justify-content: space-around;
 }
@@ -19,6 +17,9 @@ body {
 }
 h1{
     font-size: 64px;
+}
+h2 {
+    font-size: 36px;
 }
 .slanted-text {
         transform: skew(-15deg); 
